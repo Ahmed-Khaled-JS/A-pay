@@ -1,0 +1,81 @@
+*{
+    padding: 0  ;
+    margin: 0;
+}
+
+.sizeofcontainer{
+    width: 60%;
+}
+@media (max-width: 500px) {
+    .sizeofcontainer{
+        width: 100%;
+    }
+}
+.main-layout {
+    width: 100%;
+    height: calc(100vh -  55.99px);
+    background: rgb(52 100 114);
+    background-image: url(../images/pngegg.png);
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+}
+.glassey{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+width: 200px;
+height: 200px;
+flex-direction: column;
+color: #3f2e2e;
+
+}
+.glassey i{
+    font-size: 3rem;
+}
+.glassey p{
+    color: #ffffff;
+}
+ .sendr{
+    font-size: 3rem;
+    transform: rotate(45deg);
+}
+
+.transrotate{
+    font-size: 3rem;
+    transform: rotate(135deg);
+}
+
+.reciver{
+    font-size: 3rem;
+    transform: rotate(225deg);
+}
+
+.glassey .desc-p{
+    font-size: 13px;
+    width: 80%;
+    text-align: center;
+}
+
+.rigthpos {
+    position: absolute;
+    right: 0;
+    left: auto;
+}
+.rigthpos li p {
+    font-size: small;
+    color: #1f1d1d;
+}
+.rigthpos li p span {
+    font-size: 16px;
+}
+.general_i {
+    font-size: 3rem;
+}

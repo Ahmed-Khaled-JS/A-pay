@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: #f0f0f0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.table-header {
+    background-color: rgb(0,70,100);
+    color: #fff;
+}
+
+.table-header td {
+    border-bottom: none;
+}
+
+.transaction-table td:first-child {
+    width: 40%;
+}
+
+.transaction-table td:nth-child(2) {
+    width: 30%;
+}
+
+.transaction-table td:nth-child(3) {
+    width: 30%;
+}
+
+/* Add styles for buttons or links if needed */
+.width40{
+    width: 30%;
+}
